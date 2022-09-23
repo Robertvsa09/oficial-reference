@@ -19,8 +19,9 @@
  
  
  section.normal{background-color: rgba(113, 144, 255, 0.164);
+    padding:  40px;
 
-    background-position: center center;
+    
 
 }  
     body { 
@@ -82,7 +83,7 @@ header p:hover ,footer p:hover{
 }
 
 section { 
-padding: 20px;
+padding: 10px;
     text-align: center;  
    background-image: radial-gradient(circle,   rgba(231, 117, 68, 0.272) ,rgba(58, 91, 254, 0.809) ,rgba(34, 34, 249, 0.284));
    border-radius: 100px 10px 100px;
@@ -103,11 +104,11 @@ text-align: center;
 
 } 
 
-section.imagem {height: 45vh;
+section.imagem {height: 65vh;
   box-shadow: inset 1px 1px 6px 1px rgba(168, 174, 255, 0.368);
- background-size: contain;
+ background-size: cover;
     background-attachment: fixed;
-    padding: 8px;
+    padding: 48px;
 margin: 0%;
 
 } section#rede-sociais img{
@@ -129,7 +130,7 @@ transition: transform  1s;
 section#imgsanca{
     background-image: url('../imagens/sanca.jpeg');
     border-radius: 20px;
-   background-size: contain ;
+   background-size: contain;
    background-repeat: no-repeat;
 
     background-position: center center;
