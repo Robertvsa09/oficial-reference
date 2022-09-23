@@ -35,7 +35,7 @@
 }
    header{  position: sticky;
     top: -1px;
-    background-image: radial-gradient(circle,  rgba(82, 108, 253, 0.663) , rgba(22, 0, 186, 0.606) ,rgba(0, 7, 209, 0.759));
+    background-image: radial-gradient(circle,  rgba(82, 108, 253, 0.845) , rgba(186, 46, 0, 0.499) ,rgba(20, 28, 249, 0.822));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 18px;
@@ -84,8 +84,8 @@ header p:hover ,footer p:hover{
 section { 
  
     text-align: center;  
-   background-image: radial-gradient(circle,   rgba(143, 59, 31, 0.39) ,rgba(0, 36, 216, 0.809) ,rgba(0, 0, 255, 0.284));
-   border-radius: 10px 10px 10px;
+   background-image: radial-gradient(circle,   rgba(229, 92, 47, 0.39) ,rgba(0, 36, 216, 0.809) ,rgba(34, 34, 249, 0.284));
+   border-radius: 100px 10px 100px;
        background-size: cover;
          background-attachment: fixed;
      
@@ -103,11 +103,12 @@ text-align: center;
 
 } 
 
-section.imagem {height: 55vh;
+section.imagem {height: 65vh;
   box-shadow: inset 1px 1px 6px 1px rgba(168, 174, 255, 0.368);
  background-size: contain;
     background-attachment: fixed;
-    padding: 0%;
+    padding: 8px;
+
 margin: auto;
 } section#rede-sociais img{
     width: 26px;
