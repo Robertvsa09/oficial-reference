@@ -19,14 +19,14 @@
     background-position: center center;
 
 }  
-    body { background-image: radial-gradient(circle white ,gray rgb(255, 245, 245))
+    body { 
 } 
 
     main {   
         margin: 4px;
         padding: 10px;
-        background-color: rgba(137, 137, 250, 0.373);
-        border-radius: 2px;
+        background-color: rgb(246, 246, 246);
+        border-radius: 20px;
 }
    header{  position: sticky;
     top: -1px;
@@ -47,9 +47,9 @@
 header > h1{  
      background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
     font-family: var(--font1) ;
- 
+
     font-style:normal;
-   padding: 16px;
+   padding: 18px;
    margin: 0%;
         
        font-size: 7vw;
@@ -80,13 +80,13 @@ header p:hover ,footer p:hover{
 section { 
  
     text-align: center;  
-   position: sticky;
-   
-     background-color:rgba(137, 160, 213, 0.315);
+ 
+   background-image: radial-gradient(circle,   rgba(183, 165, 159, 0.639) ,rgba(91, 119, 209, 0.425) ,rgb(255, 253, 250));
        background-size: cover;
          background-attachment: fixed;
      
-} p > img{ 
+} 
+p > img{ 
     width: 12px;
 }
 
@@ -105,9 +105,9 @@ section.imagem {height: 55vh;
     background-attachment: fixed;
 
 } section#rede-sociais img{
-    width: 25px;
+    width: 26px;
     text-emphasis: none;
-    margin:  5px;
+    margin:  4px;
     padding:6px;
     border-radius: 50%;
     text-align: center;
