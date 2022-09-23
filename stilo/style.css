@@ -30,7 +30,7 @@
 }
    header{  position: sticky;
     top: -1px;
-    background-image: radial-gradient(circle,  rgb(0, 38, 251) , rgb(45, 35, 120) ,rgb(0, 4, 130));
+    background-image: radial-gradient(circle,  rgb(0, 38, 251) , rgb(45, 31, 149) ,rgb(0, 6, 177));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 18px;
@@ -73,7 +73,7 @@ header > h1{
     
 } 
 header p:hover ,footer p:hover{ 
-  
+
     text-decoration: underline;
 }
 
@@ -121,7 +121,7 @@ transition: transform  2s;
 
 section#imgsanca{
     background-image: url('../imagens/sanca.jpeg');
-
+    border-radius: 20px;
    background-size: contain ;
    background-repeat: no-repeat;
 
@@ -134,7 +134,7 @@ section#imgsanca{
  background-size: contain;
  background-repeat: no-repeat;
  background-position: center center;
- 
+ border-radius: 20px;
     background-attachment: fixed;
 }
 
@@ -142,7 +142,7 @@ section.imagem p {
 /*to afim de tirar isso*/
 height: 20vh;
 text-align: center center;
-
+border-radius: 2px;
   padding:  10px;
   margin: 70px;
   background-color: rgba(255, 255, 255, 0.402);
@@ -152,9 +152,18 @@ text-align: center center;
 
   
 }
-footer{ background-color: rgb(11, 0, 35);
+footer{ 
+    background-color: rgb(66, 0, 209);
+
     text-align: center;
-    padding: 8px;
+        padding: 13px;
+      border-radius: 2px;
 }
 
+footer p { 
+   text-align: center top;
 
+    color: aliceblue;
+   
+
+} 
