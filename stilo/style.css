@@ -18,12 +18,7 @@
 }
  
  
- section.normal{background-color: rgba(113, 144, 255, 0.164);
-    padding:  40px;
-
-    
-
-}  
+  
     body { 
 } 
 
@@ -36,7 +31,7 @@
 }
    header{  position: sticky;
     top: -1px;
-    background-image: radial-gradient(circle,  rgba(43, 73, 245, 0.845) , rgba(195, 58, 24, 0.143) ,rgba(48, 55, 250, 0.891));
+    background-image: radial-gradient(circle,  rgba(32, 65, 255, 0.596) , rgba(214, 71, 35, 0.126) ,rgba(48, 55, 250, 0.734));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 18px;
@@ -85,12 +80,18 @@ header p:hover ,footer p:hover{
 section { 
 padding: 10px;
     text-align: center;  
-   background-image: radial-gradient(circle,   rgba(231, 117, 68, 0.272) ,rgba(58, 91, 254, 0.809) ,rgba(34, 34, 249, 0.284));
+   background-image: radial-gradient(circle,   rgba(252, 144, 98, 0.408) ,rgba(93, 119, 246, 0.809) ,rgba(52, 52, 255, 0.284));
    border-radius: 100px 10px 100px;
        background-size: cover;
          background-attachment: fixed;
      
-} 
+}  section.normal{
+    background-color: rgba(113, 144, 255, 0.164);
+    font-family:var(--font4) ;
+    padding:  30px;
+
+
+}
 p > img{ 
     width: 12px;
 }
@@ -151,7 +152,7 @@ section.imagem p {
 font-family: var(--font4);
 color:rgb(0, 7, 140);
 font-size: x-large;
-text-shadow: 5px 5px 10px rgb(170, 171, 251);
+text-shadow: 3px 3px 4px rgb(170, 171, 251);
 text-align: center center;
 border-radius: 20px;
   padding:  6px;
@@ -164,15 +165,18 @@ border-radius: 20px;
   
 }
 footer{ 
-    background-color: rgb(66, 0, 209);
+    background-color: rgba(30, 0, 255, 0.772);
 
     text-align: center;
         padding: 13px;
       border-radius: 2px;
+} footer a {
+    color: rgba(115, 46, 24, 0.839);
 }
 
 footer p { 
    text-align: center top;
+   font-size:x-small;
 
     color: aliceblue;
    
