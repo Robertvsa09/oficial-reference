@@ -19,12 +19,13 @@
     background-position: center center;
 
 }  
-    body { background-color: rgba(173, 134, 113, 0.6);
+    body { background-image: radial-gradient(circle white ,gray rgb(255, 245, 245))
 } 
 
     main {   
-        margin: 3px;
-        background-color: rgba(0, 0, 62, 0.373);
+        margin: 5px;
+        padding: 10px;
+        background-color: rgba(137, 137, 250, 0.373);
         border-radius: 2px;
 }
    header{  position: sticky;
@@ -97,7 +98,7 @@ text-align: center;
 } 
 
 section.imagem {height: 60vh;
-  box-shadow: inset 1px 1px 10px 1px rgb(121, 93, 85);
+  box-shadow: inset 1px 1px 10px 1px rgba(232, 222, 220, 0.824);
  background-size: contain;
     background-attachment: fixed;
 
