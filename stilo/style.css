@@ -18,7 +18,7 @@
 }
  
  
- section.normal{background-color: rgb(255, 255, 255);
+ section.normal{background-color: rgb(22, 32, 99);
 
     background-position: center center;
 
@@ -30,7 +30,7 @@
         font-size: 10px;
         margin: 4px;
         padding: 10px;
-        background-color: rgb(246, 246, 246);
+        background-color: rgba(223, 223, 255, 0.029);
         border-radius: 20px;
 }
    header{  position: sticky;
@@ -53,14 +53,17 @@ header > h1{
      font-style:normal;
         padding: 18px;
           margin: 0%;       
-       font-size: 7vw;
+       font-size:27px;
       text-shadow: rgb(8, 0, 69) 1px 2px 4px ;
       border-radius: 10px  10px 0px 0px;
       box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
       
 }header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
     color: rgb(247, 247, 247);
-    text-shadow: 1px 1px 1px  rgb(0, 63, 0); 
+    font-family: var(--font1);
+    font-style: italic;
+    
+    text-shadow: 1px 1px 1px  rgba(9, 0, 66, 0.771); 
     padding: 6px ;
        background-size: cover;   background-attachment: fixed;
     border-radius:1px 0px 10px  10px;
@@ -81,7 +84,7 @@ header p:hover ,footer p:hover{
 section { 
  
     text-align: center;  
-   background-image: radial-gradient(circle,   rgba(224, 212, 208, 0.39) ,rgba(173, 188, 235, 0.228) ,rgba(255, 253, 250, 0.284));
+   background-image: radial-gradient(circle,   rgba(143, 59, 31, 0.39) ,rgba(0, 40, 162, 0.809) ,rgba(0, 0, 255, 0.284));
    border-radius: 10px 10px 10px;
        background-size: cover;
          background-attachment: fixed;
@@ -91,7 +94,7 @@ p > img{
     width: 12px;
 }
 
-section > p {
+section  p {
 color: black;
  font-family: var(--font1) ;
  font-style: italic;
@@ -100,13 +103,15 @@ text-align: center;
 } 
 
 section.imagem {height: 55vh;
-  box-shadow: inset 1px 1px 10px 1px rgba(240, 236, 235, 0.824);
+  box-shadow: inset 1px 1px 6px 1px rgba(168, 174, 255, 0.368);
  background-size: contain;
     background-attachment: fixed;
-
+    padding-top: 0%;
+margin: auto;
 } section#rede-sociais img{
     width: 26px;
     text-emphasis: none;
+    box-shadow: 1px 1px 3px black;
     margin:  4px;
     padding:6px;
     border-radius: 50%;
@@ -140,14 +145,14 @@ section#imgsanca{
 
 section.imagem p { 
 /*to afim de tirar isso*/
-color:rgb(0, 0, 0);
+color:rgb(0, 5, 99);
 height: 20vh;
-text-shadow: 2px 2px 8px rgb(0, 0, 255);
+text-shadow: 5px 5px 10px rgb(144, 146, 255);
 text-align: center center;
 border-radius: 20px;
   padding:  10px;
   margin: 70px;
-  background-color: rgba(180, 192, 253, 0.13);
+  background-color: rgba(123, 130, 168, 0.175);
 
 
 
