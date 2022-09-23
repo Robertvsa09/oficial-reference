@@ -18,7 +18,7 @@
 }
  
  
- section.normal{background-color: rgb(22, 32, 99);
+ section.normal{background-color: rgba(113, 144, 255, 0.164);
 
     background-position: center center;
 
@@ -35,7 +35,7 @@
 }
    header{  position: sticky;
     top: -1px;
-    background-image: radial-gradient(circle,  rgba(82, 108, 253, 0.845) , rgba(186, 46, 0, 0.499) ,rgba(20, 28, 249, 0.822));
+    background-image: radial-gradient(circle,  rgba(43, 73, 245, 0.845) , rgba(195, 58, 24, 0.143) ,rgba(48, 55, 250, 0.891));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 18px;
@@ -48,7 +48,7 @@
 }
 
 header > h1{  
-     background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
+     background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(233, 195, 177, 0.949) ,rgba(174, 164, 142, 0.827));
     font-family: var(--font1) ;
      font-style:normal;
         padding: 18px;
@@ -63,7 +63,7 @@ header > h1{
     font-family: var(--font4);
     font-style: italic;
     font-size: 22px;   
-    text-shadow: 2px 2px 6px  rgb(11, 0, 80); 
+    text-shadow: 1px 1px 2px  rgb(10, 0, 66); 
     padding: 6px ;
        background-size: cover;   background-attachment: fixed;
     border-radius:1px 0px 10px  10px;
@@ -82,9 +82,9 @@ header p:hover ,footer p:hover{
 }
 
 section { 
- 
+padding: 20px;
     text-align: center;  
-   background-image: radial-gradient(circle,   rgba(229, 92, 47, 0.39) ,rgba(0, 36, 216, 0.809) ,rgba(34, 34, 249, 0.284));
+   background-image: radial-gradient(circle,   rgba(231, 117, 68, 0.272) ,rgba(58, 91, 254, 0.809) ,rgba(34, 34, 249, 0.284));
    border-radius: 100px 10px 100px;
        background-size: cover;
          background-attachment: fixed;
@@ -96,7 +96,7 @@ p > img{
 
 section  p {
 color: black;
-padding: -10px;
+padding: 10px;
  font-family: var(--font1) ;
  font-style: italic;
 text-align: center;
@@ -108,8 +108,8 @@ section.imagem {height: 65vh;
  background-size: contain;
     background-attachment: fixed;
     padding: 8px;
+margin: 0%;
 
-margin: auto;
 } section#rede-sociais img{
     width: 26px;
     text-emphasis: none;
