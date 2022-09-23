@@ -86,9 +86,10 @@ padding: 10px;
          background-attachment: fixed;
      
 }  section.normal{
+
     background-color: rgba(113, 144, 255, 0.164);
     font-family:var(--font4) ;
-    padding:  20px;
+    padding:  10px;
 
 
 }
