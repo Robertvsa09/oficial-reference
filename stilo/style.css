@@ -1,16 +1,20 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 
 :root{
-    --font1 : 'Kanit',verdana , sans-serif;
-    --font2:'Raleway', sans-serif;
-    --font3: 'Lobster', cursive;
+    --font1 : 'Kanit',verdana , arial,sans-serif;
+    --font2: 'Bungee Shade', arial ,cursive;
+    ;
+    --font3: 'Bungee Spice', arial ,cursive;
+
+
 }
  
  
@@ -22,7 +26,8 @@
     body { 
 } 
 
-    main {   
+    main {   text-align: center;
+        font-size: 10px;
         margin: 4px;
         padding: 10px;
         background-color: rgb(246, 246, 246);
@@ -30,7 +35,7 @@
 }
    header{  position: sticky;
     top: -1px;
-    background-image: radial-gradient(circle,  rgb(0, 38, 251) , rgb(45, 31, 149) ,rgb(0, 6, 177));
+    background-image: radial-gradient(circle,  rgb(36, 69, 255) , rgb(48, 30, 182) ,rgb(0, 7, 209));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 18px;
@@ -39,22 +44,18 @@
      padding-right: 14px;
   border-radius: 2px;
   box-shadow: rgb(6, 21, 60) 1px 1px 3px 1px;
-   
-          
-   
+              
 }
 
 header > h1{  
      background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
     font-family: var(--font1) ;
-
-    font-style:normal;
-   padding: 18px;
-   margin: 0%;
-        
+     font-style:normal;
+        padding: 18px;
+          margin: 0%;       
        font-size: 7vw;
       text-shadow: rgb(8, 0, 69) 1px 2px 4px ;
-      border-radius: 20px  0px 0px;
+      border-radius: 10px  10px 0px 0px;
       box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
       
 }header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
@@ -62,7 +63,7 @@ header > h1{
     text-shadow: 1px 1px 1px  rgb(0, 63, 0); 
     padding: 6px ;
        background-size: cover;   background-attachment: fixed;
-    border-radius:1px 0px 0px  10px;
+    border-radius:1px 0px 10px  10px;
     box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
 
 }
@@ -80,8 +81,8 @@ header p:hover ,footer p:hover{
 section { 
  
     text-align: center;  
- 
-   background-image: radial-gradient(circle,   rgba(183, 165, 159, 0.639) ,rgba(91, 119, 209, 0.425) ,rgb(255, 253, 250));
+   background-image: radial-gradient(circle,   rgba(224, 212, 208, 0.39) ,rgba(173, 188, 235, 0.228) ,rgba(255, 253, 250, 0.284));
+   border-radius: 10px 10px 10px;
        background-size: cover;
          background-attachment: fixed;
      
@@ -90,17 +91,16 @@ p > img{
     width: 12px;
 }
 
-section p {
- color: black;
- text-shadow: 1px 1px 4px rgb(71, 71, 0);
- text-transform: uppercase;
-  font-family: var(--font2);
+section > p {
+color: black;
+ font-family: var(--font1) ;
+ font-style: italic;
 text-align: center;
 
 } 
 
 section.imagem {height: 55vh;
-  box-shadow: inset 1px 1px 10px 1px rgba(232, 222, 220, 0.824);
+  box-shadow: inset 1px 1px 10px 1px rgba(240, 236, 235, 0.824);
  background-size: contain;
     background-attachment: fixed;
 
@@ -140,12 +140,14 @@ section#imgsanca{
 
 section.imagem p { 
 /*to afim de tirar isso*/
+color:rgb(0, 0, 0);
 height: 20vh;
+text-shadow: 2px 2px 8px rgb(0, 0, 255);
 text-align: center center;
-border-radius: 2px;
+border-radius: 20px;
   padding:  10px;
   margin: 70px;
-  background-color: rgba(255, 255, 255, 0.402);
+  background-color: rgba(180, 192, 253, 0.13);
 
 
 
