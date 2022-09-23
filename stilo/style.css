@@ -7,14 +7,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 :root{
     --font1 : 'Kanit',verdana , arial,sans-serif;
     --font2: 'Bungee Shade', arial ,cursive;
     ;
     --font3: 'Bungee Spice', arial ,cursive;
-
-
+    --font4:'Sacramento', arial, helvetica, cursive;
 }
  
  
@@ -35,7 +35,7 @@
 }
    header{  position: sticky;
     top: -1px;
-    background-image: radial-gradient(circle,  rgb(36, 69, 255) , rgb(48, 30, 182) ,rgb(0, 7, 209));
+    background-image: radial-gradient(circle,  rgba(82, 108, 253, 0.663) , rgba(22, 0, 186, 0.606) ,rgba(0, 7, 209, 0.759));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 18px;
@@ -59,11 +59,11 @@ header > h1{
       box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
       
 }header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
-    color: rgb(247, 247, 247);
-    font-family: var(--font1);
+    color: rgb(255, 255, 255);
+    font-family: var(--font4);
     font-style: italic;
-    
-    text-shadow: 1px 1px 1px  rgba(9, 0, 66, 0.771); 
+    font-size: 22px;   
+    text-shadow: 2px 2px 6px  rgb(11, 0, 80); 
     padding: 6px ;
        background-size: cover;   background-attachment: fixed;
     border-radius:1px 0px 10px  10px;
@@ -84,7 +84,7 @@ header p:hover ,footer p:hover{
 section { 
  
     text-align: center;  
-   background-image: radial-gradient(circle,   rgba(143, 59, 31, 0.39) ,rgba(0, 40, 162, 0.809) ,rgba(0, 0, 255, 0.284));
+   background-image: radial-gradient(circle,   rgba(143, 59, 31, 0.39) ,rgba(0, 36, 216, 0.809) ,rgba(0, 0, 255, 0.284));
    border-radius: 10px 10px 10px;
        background-size: cover;
          background-attachment: fixed;
@@ -96,6 +96,7 @@ p > img{
 
 section  p {
 color: black;
+padding: -10px;
  font-family: var(--font1) ;
  font-style: italic;
 text-align: center;
@@ -106,7 +107,7 @@ section.imagem {height: 55vh;
   box-shadow: inset 1px 1px 6px 1px rgba(168, 174, 255, 0.368);
  background-size: contain;
     background-attachment: fixed;
-    padding-top: 0%;
+    padding: 0%;
 margin: auto;
 } section#rede-sociais img{
     width: 26px;
@@ -121,7 +122,7 @@ margin: auto;
      border: 2px solid rgba(62, 39, 39, 0.432);
 transform:translate(-3px, -3px) ;
 box-shadow: 1px 1px 1px black;
-transition: transform  2s;
+transition: transform  1s;
 }
 
 section#imgsanca{
@@ -145,14 +146,15 @@ section#imgsanca{
 
 section.imagem p { 
 /*to afim de tirar isso*/
-color:rgb(0, 5, 99);
-height: 20vh;
-text-shadow: 5px 5px 10px rgb(144, 146, 255);
+font-family: var(--font4);
+color:rgb(0, 7, 140);
+font-size: x-large;
+text-shadow: 5px 5px 10px rgb(170, 171, 251);
 text-align: center center;
 border-radius: 20px;
-  padding:  10px;
-  margin: 70px;
-  background-color: rgba(123, 130, 168, 0.175);
+  padding:  6px;
+  margin: 85px;
+  background-color: rgba(233, 236, 255, 0);
 
 
 
