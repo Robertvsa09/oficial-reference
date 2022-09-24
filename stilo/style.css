@@ -111,7 +111,7 @@ text-align: center;
 
 } 
 
-section.imagem {height: 100px;
+section.imagem {height: 60vh;
   box-shadow: inset 1px 1px 6px 1px rgba(168, 174, 255, 0.368);
  background-size: contain;
     background-attachment: fixed;
