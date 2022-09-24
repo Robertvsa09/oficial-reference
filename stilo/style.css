@@ -111,11 +111,11 @@ text-align: center;
 
 } 
 
-section.imagem {height: 50vh;
+section.imagem {height: 80vh;
   box-shadow: inset 1px 1px 6px 1px rgba(168, 174, 255, 0.368);
- background-size: cover;
+ background-size: contain;
     background-attachment: fixed;
-    padding: 48px;
+    padding: 8px;
 margin: 0%;
 
 } section#rede-sociais img{
@@ -161,8 +161,8 @@ font-size: x-large;
 text-shadow: 3px 3px 4px rgb(170, 171, 251);
 text-align: center center;
 border-radius: 20px;
-  padding:  6px;
-  margin: 85px;
+
+  margin: 35px;
   background-color: rgba(233, 236, 255, 0);
 
 
