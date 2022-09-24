@@ -29,17 +29,22 @@
         background-color: rgba(223, 223, 255, 0.029);
         border-radius: 20px;
 }
-   header{  position: sticky;
-    top: -1px;
+   header{  
+ 
     background-image: radial-gradient(circle,  rgba(32, 65, 255, 0.596) , rgba(214, 71, 35, 0.126) ,rgba(48, 55, 250, 0.734));
     color:rgb(255, 255, 255);
-    text-align: center; 
-    padding-top: 18px;
-     padding-bottom: 2px;
-    padding-left: 14px;
-     padding-right: 14px;
-  border-radius: 2px;
-  box-shadow: rgb(6, 21, 60) 1px 1px 3px 1px;
+    text-align: center;   
+    background-size: contain;
+     margin-top: -10px;
+     margin-left: auto;
+    position: absolute;
+    position: sticky;
+    top: 0%;
+    padding-top: 16px;
+     padding-bottom: 1px;
+    padding-left: 1px;
+     padding-right: 1px;
+ 
               
 }
 
@@ -47,7 +52,7 @@ header > h1{
      background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(233, 195, 177, 0.949) ,rgba(174, 164, 142, 0.827));
     font-family: var(--font1) ;
      font-style:normal;
-        padding: 18px;
+        padding: 16px;
           margin: 0%;       
        font-size:27px;
       text-shadow: rgb(8, 0, 69) 1px 2px 4px ;
@@ -89,12 +94,12 @@ padding: 10px;
 
     background-color: rgba(113, 144, 255, 0.164);
     font-family:var(--font4) ;
-    padding:  10px;
+    padding:  16px;
 
 
 }
 p > img{ 
-    width: 12px;
+    width: 14px;
 }
 
 section  p {
