@@ -25,7 +25,7 @@
     main {   text-align: center;
         font-size: 10px;
         margin: 4px;
-        padding: 10px;
+        padding: 32px;
         background-color: rgba(223, 223, 255, 0.029);
         border-radius: 20px;
 }
@@ -39,7 +39,7 @@ background-attachment: fixed;
      margin-top: -10px;   
     position: sticky;
     top: 0%;
-    padding-top: 16px;
+    padding-top: 28px;
      padding-bottom: 1px;
     padding-left: 1px;
      padding-right: 1px;
@@ -89,7 +89,7 @@ header p:hover ,footer p:hover{
 
 section {  background-image: url('../imagens/aco-inox.jpg');
             background-size: cover;
-            padding: 8px;
+            padding: 18px;
              text-align: center;
             box-shadow: 1px 1px 3px black;
              border-radius: 100px 10px 100px;
@@ -111,7 +111,7 @@ p > img{
 
 section  p {
 color: black;
-padding-top :-10px;
+padding-top :10px;
  font-family: var(--font1) ;
  font-style: italic;
 text-align: center;
