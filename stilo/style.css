@@ -16,8 +16,6 @@
     --font3: 'Bungee Spice', arial ,cursive;
     --font4:'Sacramento', arial, helvetica, cursive;
 }
- 
- 
   
     body { background-color: aliceblue;
 } 
@@ -167,14 +165,7 @@ font-size: x-large;
 text-shadow: 1px 1px 1px rgba(170, 171, 251, 0.694);
 text-align: center center;
 border-radius: 20px;
-
-
-  background-color: rgba(233, 236, 255, 0);
-
-
-
-
-  
+  background-color: rgba(233, 236, 255, 0); 
 }
 footer{ 
     background-color: rgba(30, 0, 255, 0.772);
@@ -183,7 +174,7 @@ footer{
         padding: 13px;
       border-radius: 2px;
 } footer a {
-    color: rgba(115, 46, 24, 0.839);
+    color: rgba(69, 64, 62, 0.839);
 }
 
 footer p { 
