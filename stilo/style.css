@@ -31,10 +31,10 @@
 }
    header{  
  
-    background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
-    background-repeat: no-repeat;
-background-size:cover;
-    color:rgb(255, 255, 255);
+    background-image: url('../imagens/fundo-preto.jpg');
+     background-size:contain;
+background-attachment: fixed;
+ color: whitesmoke;
     text-align: center;   
      margin-top: -10px;   
     position: sticky;
@@ -43,41 +43,40 @@ background-size:cover;
      padding-bottom: 1px;
     padding-left: 1px;
      padding-right: 1px;
- 
+    box-shadow:  1px 2px 2px black;
               
 } 
 
 header > h1{  
   
     font-family: var(--font1) ;
- 
-     font-style:normal; 
+        text-transform: uppercase;
+         font-style:normal; 
         padding: 16px;
           margin: 0%;       
-       font-size:27px;
-      text-shadow: rgb(8, 0, 69) 1px 2px 4px ;
-      border-radius: 10px  10px 0px 0px;
-      box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
-      
+         font-size:27px;
+         text-shadow: rgba(103, 69, 1, 0.702) 1px 1px 2px ;
+         border-radius: 10px  10px 0px 0px;
+     
 } 
 
 header > p{     background-image:url('../imagens/aco-inox.jpg');
     background-size: cover;
- 
     background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
+
+    color: rgb(6, 6, 6);
     font-family: var(--font4);
     font-style: italic;
     font-size: 16px;   
-    text-shadow: 1px 1px 2px  rgb(10, 0, 66); 
-   margin: auto;
+    text-shadow: 1px 1px 2px  rgba(10, 0, 66, 0.149); 
+   margin: ;
 
        
 
     box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
 
 }
-   header a, footer a  {  background-image: url('../imagens/aco.escovado.jpg');
+   header a, footer a  {  background-image: url('../imagens/aco-inox.jpg');
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -88,13 +87,15 @@ header p:hover ,footer p:hover{
     text-decoration: underline;
 }
 
-section { 
-padding: 10px;
-    text-align: center;  
-   background-image: radial-gradient(circle,   rgba(252, 144, 98, 0.408) ,rgba(93, 119, 246, 0.809) ,rgba(52, 52, 255, 0.284));
-   border-radius: 100px 10px 100px;
-       background-size: cover;
-         background-attachment: fixed;
+section {  background-image: url('../imagens/aco-inox.jpg');
+            background-size: cover;
+            padding: 8px;
+             text-align: center;
+            box-shadow: 1px 1px 3px black;
+             border-radius: 100px 10px 100px;
+
+      
+       
      
 }  section.normal{
 
@@ -170,9 +171,11 @@ border-radius: 20px;
   background-color: rgba(233, 236, 255, 0); 
 }
 footer{ 
-    background-color: rgba(30, 0, 255, 0.772);
-
+    background-image: url('../imagens/fundo-preto.jpg');
+    background-attachment: fixed;
+    background-size: contain;
     text-align: center;
+    box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.589);
         padding: 13px;
       border-radius: 2px;
 } footer a {
