@@ -73,14 +73,10 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
 }
    header a, footer a  {  background-image: url('../imagens/aco-inox.jpg');
     color: white;
-    text-decoration: none;
-    font-weight: bolder;
+  
     
 } 
-header p:hover ,footer p:hover{ 
 
-    text-decoration: underline;
-}
 
 section {  background-image: url('../imagens/aco-inox.jpg');
             background-size: cover;
@@ -154,8 +150,8 @@ section.imagem p {
 /*to afim de tirar isso*/
 font-family: var(--font4);
 color:rgb(0, 0, 0);
-font-size: large;
-text-shadow: 1px 1px 1px rgba(119, 113, 0, 0.314);
+font-size: x-large;
+text-shadow: 1px 1px 1px rgba(136, 123, 0, 0.083);
 text-align: center center;
 border-radius: 20px;
 }
@@ -166,17 +162,18 @@ footer {
     text-align: center;
     box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.589);
         padding: 13px;
-      border-radius: 2px;
-} footer a {
+        border-radius: 2px;
+} footer > a {
+ 
     color: rgba(69, 64, 62, 0.839);
     font-size:x-small;
 }
 
 footer p { 
+  
    text-align: center top;
    font-size:x-small;
-
-    color: aliceblue;
+   color: aliceblue;
    
 
 } 
