@@ -17,7 +17,9 @@
     --font4:'Sacramento', arial, helvetica, cursive;
 }
   
-    body { background-color: aliceblue;
+    body {       background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
+        background-repeat: no-repeat;
+    background-size:cover;
 } 
 
     main {   text-align: center;
