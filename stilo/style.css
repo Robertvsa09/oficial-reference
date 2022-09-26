@@ -45,7 +45,7 @@ background-size:cover;
      padding-right: 1px;
  
               
-}
+} 
 
 header > h1{  
   
@@ -59,7 +59,12 @@ header > h1{
       border-radius: 10px  10px 0px 0px;
       box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
       
-}header > p{     background-image:url('../imagens/aco-escovado.jpg');
+} 
+
+header > p{     background-image:url('../imagens/aco-inox.jpg');
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     font-family: var(--font4);
     font-style: italic;
@@ -157,9 +162,9 @@ section#imgsanca{
 section.imagem p { 
 /*to afim de tirar isso*/
 font-family: var(--font4);
-color:rgb(0, 7, 140);
+color:rgb(0, 1, 23);
 font-size: x-large;
-text-shadow: 1px 1px 1px rgba(170, 171, 251, 0.277);
+text-shadow: 1px 1px 1px rgba(170, 171, 251, 0.694);
 text-align: center center;
 border-radius: 20px;
 
