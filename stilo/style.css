@@ -31,13 +31,12 @@
 }
    header{  
  
-    background-image: radial-gradient(circle,  rgba(32, 65, 255, 0.833) , rgba(35, 47, 214, 0.64) ,rgba(48, 55, 250, 0.837));
+    background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
+    background-repeat: no-repeat;
+background-size:cover;
     color:rgb(255, 255, 255);
     text-align: center;   
-    background-size: contain;
-     margin-top: -10px;
-     margin-left: auto;
-    position: absolute;
+     margin-top: -10px;   
     position: sticky;
     top: 0%;
     padding-top: 16px;
@@ -49,9 +48,10 @@
 }
 
 header > h1{  
-     background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(233, 195, 177, 0.949) ,rgba(174, 164, 142, 0.827));
+  
     font-family: var(--font1) ;
-     font-style:normal;
+ 
+     font-style:normal; 
         padding: 16px;
           margin: 0%;       
        font-size:27px;
@@ -59,19 +59,20 @@ header > h1{
       border-radius: 10px  10px 0px 0px;
       box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
       
-}header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
+}header > p{     background-image:url('../imagens/aco-escovado.jpg');
     color: rgb(255, 255, 255);
     font-family: var(--font4);
     font-style: italic;
-    font-size: 22px;   
+    font-size: 16px;   
     text-shadow: 1px 1px 2px  rgb(10, 0, 66); 
-    padding: 6px ;
-       background-size: cover;   background-attachment: fixed;
-    border-radius:1px 0px 10px  10px;
+   margin: auto;
+
+       
+
     box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
 
 }
-   header a, footer a  { 
+   header a, footer a  {  background-image: url('../imagens/aco.escovado.jpg');
     color: white;
     text-decoration: none;
     font-weight: bolder;
