@@ -29,9 +29,9 @@
          text-align: center;
          height: 200px;
         font-size: 10px;
-margin:-10px;
+        padding-top: 10px;
 
-        padding: 22px;
+        padding: 12px;
    
     }
    header{  
@@ -70,6 +70,7 @@ header > h1{
 header > p{     background-image:url('../imagens/aco-inox.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    
 
     color: rgb(6, 6, 6);
     font-family: var(--font4);
@@ -87,8 +88,9 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
 
 section {  background-image: url('../imagens/aco-inox.jpg');
             background-size: cover;       
-           padding: 18px;
-           margin: 20px;
+       
+           padding-top: 10px;
+           margin: 60px;
              text-align: center;
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
              border-radius: 100px 10px 100px;      
@@ -98,7 +100,7 @@ section {  background-image: url('../imagens/aco-inox.jpg');
   
     font-family:var(--font4) ;
     padding:  16px;
-
+  
 }
 p > img{ 
     width: 14px;
@@ -107,18 +109,20 @@ p > img{
 section  p {
 color: black;
 padding-top :10px;
+margin-top: -80px;
  font-family: var(--font1) ;
  font-style: italic;
 text-align: center;
 
 } 
 
-section.imagem {  background-image: url('../imagens/3d.jpeg ');
-   
-  
-  height: 70vh;
- background-size: contain;
-background-position: center center;
+section.imagem { 
+     background-image: url('../imagens/3d.jpeg ');
+     
+  height: 50vh;
+ background-size: cover;
+ padding: auto;
+
 
  background-attachment: fixed;
   margin: 0%;
@@ -131,12 +135,13 @@ background-position: center center;
     width: 26px;
     text-emphasis: none;
     box-shadow: 1px 1px 3px rgba(70, 60, 0, 0.439);
-    margin:  4px;
-    padding:6px;
+    margin:  5px;
+    padding:5px;
     border-radius: 50%;
     text-align: center;
    
 }section#rede-sociais img:hover {
+    margin: auto;
      border: 2px solid rgba(62, 39, 39, 0.432);
 transform:translate(-3px, -3px) ;
 box-shadow: 1px 1px 1px black;
@@ -167,6 +172,7 @@ section.imagem p {
 font-family: var(--font4);
 color:rgb(0, 0, 0);
 font-size: x-large;
+
 text-shadow: 1px 1px 1px rgba(136, 123, 0, 0.083);
 text-align: center center;
 border-radius: 20px;
