@@ -126,7 +126,8 @@ section.imagem {
       background-attachment: fixed;
       background-position: center center;
       background-repeat: no-repeat;
-       height:60vw;
+
+       height:90vh;
 
   margin: 0%;
   box-shadow: inset 1px 1px 1px rgba(186, 177, 0, 0.285);
@@ -192,7 +193,7 @@ footer {
     background-attachment: fixed;
     background-size: contain;
     text-align: center;
-    margin-top: -6px; 
+    margin-top: 30px; 
     margin-left: -12px;
     margin-right: -10px; 
     box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.589);
