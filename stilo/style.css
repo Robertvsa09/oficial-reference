@@ -22,13 +22,19 @@
     background-size:cover;
 } 
 
-    main {   text-align: center;
+    main {  
+        background-image: url('../imagens-rede/fundo-madeira.jpg');
+        backface-visibility: unset;
+        background-size: cover;
+         text-align: center;
+         height: 200px;
         font-size: 10px;
-        margin: 4px;
+margin:-10px;
+
         padding: 32px;
-        background-color: rgba(223, 223, 255, 0.029);
-        border-radius: 20px;
-}
+        box-shadow: rgba(0, 0, 0, 0.209) 1px 1px 1px;
+    
+    }
    header{  
  
     background-image: url('../imagens/fundo-preto.jpg');
@@ -45,7 +51,7 @@ background-attachment: fixed;
      padding-bottom: 1px;
     padding-left: 1px;
      padding-right: 1px;
-    box-shadow:  1px 2px 2px black;
+    box-shadow:  1px 2px 2px rgba(0, 0, 0, 0.311);
               
 } 
 
@@ -57,7 +63,7 @@ header > h1{
         padding: 16px;
           margin: 0%;       
          font-size:27px;
-         text-shadow: rgba(113, 76, 0, 0.702) 1px 1px 2px ;
+         text-shadow: rgb(113, 98, 0) 1px 1px 2px ;
          border-radius: 10px  10px 0px 0px;
      
 } 
@@ -81,14 +87,15 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
 
 
 section {  background-image: url('../imagens/aco-inox.jpg');
-            background-size: cover;
-            padding: 18px;
+            background-size: cover;       
+           padding: 18px;
+           margin: 20px;
              text-align: center;
-            box-shadow: 1px 1px 3px black;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
              border-radius: 100px 10px 100px;      
      
-}  section.normal{
-  
+}  section.normal{background-color: ;
+    background-image: url('../imagens/aco-inox.jpg');
     font-family:var(--font4) ;
     padding:  16px;
 
@@ -162,18 +169,21 @@ footer {
     background-attachment: fixed;
     background-size: contain;
     text-align: center;
+    margin-top: -6px; 
+    margin-left: -12px;
+    margin-right: -10px; 
     box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.589);
         padding: 13px;
         border-radius: 2px;
 } footer > a {
- 
+     
     color: rgba(69, 64, 62, 0.839);
     font-size:x-small;
 }
 
-footer p { 
+footer p {  text-align: center top;
+
   
-   text-align: center top;
    font-size:x-small;
    color: aliceblue;
    
