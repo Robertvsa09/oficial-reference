@@ -76,8 +76,8 @@ header > h1{
          
         
        
-         font-size:30px;
-         text-shadow: rgb(113, 98, 0) 1px 1px 2px ;
+         font-size:32px;
+         text-shadow: rgba(153, 132, 0, 0.571) 1px 1px 6px ;
          border-radius: 10px  10px 0px 0px;
      
 } 
@@ -91,13 +91,15 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
     font-family: var(--font4);
     font-style: italic;
     font-size: 18px;   
-   box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
+   box-shadow: 1px 2px 4px rgba(189, 167, 0, 0.474);
  
 }
  
   
     
- a{ color: rgb(0, 0, 61);
+ a{ color: rgb(0, 0, 80);
+    background-color: rgba(210, 210, 210, 0.263);
+    border-radius: 2px 1px;
 }
 
 section {  background-image: url('../imagens/aco-inox.jpg');
@@ -142,7 +144,7 @@ section.imagem {
        height:50vh;
 
   margin: 0%;
-  box-shadow: inset 1px 1px 1px rgba(186, 177, 0, 0.285);
+  box-shadow: inset 1px 1px 3px rgba(206, 185, 0, 0.243);
 
    
     
@@ -196,12 +198,13 @@ font-family: var(--font4);
 color:rgb(0, 0, 0);
 font-size: x-large;
 
-text-shadow: 1px 1px 1px rgba(155, 124, 0, 0.191);
+text-shadow: 1px 1px 3px rgba(206, 197, 126, 0.583);
 text-align: center center;
 border-radius: 20px;
 }
 footer { 
     background-image: url('../imagens/fundo-preto.jpg');
+    
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -213,13 +216,10 @@ footer {
         border-radius: 2px;
 } footer > a {
      
-    color:rgb(116, 116, 248);
+    color:rgb(35, 35, 53);
     font-size:x-small;
 }
-footer p.malito{ color: aliceblue;
 
-   
-}
 footer p {  text-align: center top;
 
   
