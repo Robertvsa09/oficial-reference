@@ -23,7 +23,7 @@
 } 
 
     main {  
-        background-image: url('../imagens-rede/fundo-madeira.jpg');
+    
         backface-visibility: unset;
         background-size: cover;
          text-align: center;
@@ -31,9 +31,8 @@
         font-size: 10px;
 margin:-10px;
 
-        padding: 32px;
-        box-shadow: rgba(0, 0, 0, 0.209) 1px 1px 1px;
-    
+        padding: 22px;
+   
     }
    header{  
  
@@ -62,7 +61,7 @@ header > h1{
          font-style:normal; 
         padding: 16px;
           margin: 0%;       
-         font-size:27px;
+         font-size:30px;
          text-shadow: rgb(113, 98, 0) 1px 1px 2px ;
          border-radius: 10px  10px 0px 0px;
      
@@ -75,7 +74,7 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
     color: rgb(6, 6, 6);
     font-family: var(--font4);
     font-style: italic;
-    font-size: 16px;   
+    font-size: 18px;   
    box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
  
 }
@@ -94,8 +93,9 @@ section {  background-image: url('../imagens/aco-inox.jpg');
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
              border-radius: 100px 10px 100px;      
      
-}  section.normal{background-color: ;
-    background-image: url('../imagens/aco-inox.jpg');
+}  section.normal{
+  
+  
     font-family:var(--font4) ;
     padding:  16px;
 
@@ -113,12 +113,19 @@ text-align: center;
 
 } 
 
-section.imagem {height: 60vh;
-  box-shadow: inset 1px 1px 6px 1px rgba(118, 108, 0, 0.256);
- background-size: contain;
-    background-attachment: fixed;
+section.imagem {  background-image: url('../imagens/3d.jpeg ');
+   
+    backface-visibility: unset black;
+  height: 70vh;
+ background-size: cover;
+background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+  margin: 0%;
+  box-shadow: inset 1px 1px 1px rgba(117, 72, 0, 0.092);
+
  
-margin: 0%;
+
 
 } section#rede-sociais img{
     width: 26px;
