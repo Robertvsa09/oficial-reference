@@ -115,11 +115,11 @@ text-align: center;
 
 section.imagem {  background-image: url('../imagens/3d.jpeg ');
    
-    backface-visibility: unset black;
+  
   height: 70vh;
- background-size: cover;
+ background-size: contain;
 background-position: center center;
- background-repeat: no-repeat;
+
  background-attachment: fixed;
   margin: 0%;
   box-shadow: inset 1px 1px 1px rgba(117, 72, 0, 0.092);
