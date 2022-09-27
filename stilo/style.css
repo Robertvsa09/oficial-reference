@@ -91,14 +91,14 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
     font-family: var(--font4);
     font-style: italic;
     font-size: 18px;   
-   box-shadow: 1px 2px 4px rgba(189, 167, 0, 0.474);
+   box-shadow: 1px 2px 4px rgba(226, 203, 0, 0.474);
  
 }
  
   
     
- a{ color: rgb(0, 0, 80);
-    background-color: rgba(210, 210, 210, 0.263);
+ a{ color: rgb(0, 0, 132);
+    background-color: rgba(255, 236, 169, 0.381);
     border-radius: 2px 1px;
 }
 
@@ -211,12 +211,12 @@ footer {
     margin-top: 10px; 
     margin-left: -12px;
     margin-right: -10px; 
-    box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.589);
+    box-shadow:  1px 1px 2px rgba(129, 101, 0, 0.589);
         padding: 13px;
         border-radius: 2px;
 } footer > a {
      
-    color:rgb(35, 35, 53);
+    color:rgb(218, 218, 251);
     font-size:x-small;
 }
 
@@ -224,7 +224,7 @@ footer p {  text-align: center top;
 
   
    font-size:x-small;
-   color: rgb(198, 228, 255);
+   color: rgb(219, 230, 240);
    
 
 } 
