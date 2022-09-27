@@ -27,11 +27,12 @@
         backface-visibility: unset;
         background-size: cover;
          text-align: center;
-         height: 200px;
-        font-size: 10px;
-        padding-top: 10px;
+      height: 170px;
+   
+        font-size: 12px;
+        padding-top:  -200px;
 
-        padding: 12px;
+    
    
     }
    header{  
@@ -43,7 +44,8 @@ background-attachment: fixed;
     text-align: center;   
      margin-top: -6px; 
      margin-left: -12px;
-     margin-right: -10px;  
+     margin-right: -10px; 
+     margin-bottom: -30px ; 
     position: sticky;
     top: 0%;
     padding-top: 28px;
@@ -70,7 +72,7 @@ header > h1{
 header > p{     background-image:url('../imagens/aco-inox.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
+ 
 
     color: rgb(6, 6, 6);
     font-family: var(--font4);
@@ -90,7 +92,7 @@ section {  background-image: url('../imagens/aco-inox.jpg');
             background-size: cover;       
        
            padding-top: 10px;
-           margin: 60px;
+           margin: 50px;
              text-align: center;
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
              border-radius: 100px 10px 100px;      
@@ -99,17 +101,18 @@ section {  background-image: url('../imagens/aco-inox.jpg');
   
   
     font-family:var(--font4) ;
-    padding:  16px;
+   margin-bottom: 100px;
+    padding:  14px;
   
 }
-p > img{ 
-    width: 14px;
+p > img{ width: 20px;
+   
 }
 
 section  p {
 color: black;
 padding-top :10px;
-margin-top: -80px;
+margin-top: -110px;
  font-family: var(--font1) ;
  font-style: italic;
 text-align: center;
@@ -118,15 +121,22 @@ text-align: center;
 
 section.imagem { 
      background-image: url('../imagens/3d.jpeg ');
+     min-width: 300px;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center
+      ;
      
+      background-size: cover;
+    
   height: 50vh;
- background-size: cover;
- padding: auto;
+
+
 
 
  background-attachment: fixed;
   margin: 0%;
-  box-shadow: inset 1px 1px 1px rgba(117, 72, 0, 0.092);
+  box-shadow: inset 1px 1px 1px rgba(186, 177, 0, 0.285);
 
  
 
@@ -135,13 +145,13 @@ section.imagem {
     width: 26px;
     text-emphasis: none;
     box-shadow: 1px 1px 3px rgba(70, 60, 0, 0.439);
-    margin:  5px;
+    margin:  4px;
     padding:5px;
     border-radius: 50%;
     text-align: center;
    
 }section#rede-sociais img:hover {
-    margin: auto;
+    
      border: 2px solid rgba(62, 39, 39, 0.432);
 transform:translate(-3px, -3px) ;
 box-shadow: 1px 1px 1px black;
@@ -173,7 +183,7 @@ font-family: var(--font4);
 color:rgb(0, 0, 0);
 font-size: x-large;
 
-text-shadow: 1px 1px 1px rgba(136, 123, 0, 0.083);
+text-shadow: 1px 1px 1px rgba(155, 124, 0, 0.191);
 text-align: center center;
 border-radius: 20px;
 }
