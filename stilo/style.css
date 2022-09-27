@@ -20,6 +20,7 @@
     body {       background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
         background-repeat: no-repeat;
     background-size:cover;
+    background-attachment: fixed;
 } 
 
     main {  
@@ -93,12 +94,11 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
    box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
  
 }
-   header a, footer a  {  background-image: url('../imagens/aco-inox.jpg');
-    color: white;
+ 
   
     
-} 
-
+ a{ color: rgb(0, 0, 61);
+}
 
 section {  background-image: url('../imagens/aco-inox.jpg');
             background-size: cover;       
@@ -213,15 +213,18 @@ footer {
         border-radius: 2px;
 } footer > a {
      
-    color: rgba(69, 64, 62, 0.839);
+    color:rgb(116, 116, 248);
     font-size:x-small;
 }
+footer p.malito{ color: aliceblue;
 
+   
+}
 footer p {  text-align: center top;
 
   
    font-size:x-small;
-   color: aliceblue;
+   color: rgb(198, 228, 255);
    
 
 } 
