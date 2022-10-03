@@ -18,16 +18,17 @@
 }
   
     body {    
-           background-image: url('../imagens/fundo-branca.jpg');
+          background-color: rgb(226, 226, 226);
         background-repeat: no-repeat;
     background-size:cover;
-    background-attachment: fixed;
+ 
 } 
 
     main {  
         margin: 20px;
         backface-visibility: unset;
         background-size: cover;
+        background-attachment: fixed;
          text-align: center;
       height: 170px;
    
@@ -78,17 +79,19 @@ header > h1{
         
        
          font-size:32px;
-         text-shadow: rgba(184, 166, 52, 0.451) 1px 1px 6px ;
+         text-shadow: rgba(0, 67, 12, 0.451) 1px 1px 6px ;
          border-radius: 10px  10px 0px 0px;
      
 } 
 
 header > p{     background-image:url('../imagens/aco-inox.jpg');
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
  
 
     color: rgb(6, 6, 6);
+    text-shadow: rgba(0, 67, 12, 0.099) 1px 1px 6px ;
     font-family: var(--font4);
     font-style: italic;
     font-size: 18px;   
@@ -104,39 +107,39 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
 }
 
 section {  background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
-            background-size: cover;             
+   
+            background-size: cover; 
+            background-attachment: fixed;            
            padding-top: 10px;
            padding-bottom: 10px;
-           margin: 100px;
+      
+           margin: 50px;
              text-align: center;
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);      border-radius: 100px 10px 
             100px; 
          
                
      
-} section.inomal { 
-    padding-top: 100px;
- 
-    
-}
+} 
 
  section.normal{
-     margin: 15px;
+     font-family:var(--font4);
+
+
  
   
-    font-family:var(--font4) ;
-   margin-bottom: 100px;
-    padding:  14px;
+     background-attachment: fixed;
   
 }
-p > img{ width: 20px;
-   
+p > img{ 
+    background-attachment: fixed;
 }
 
 section  p {
+    background-attachment: fixed;
 color: black;
 padding-top :10px;
-margin-top: -110px;
+margin-top: 60px;
  font-family: var(--font1) ;
  font-style: italic;
 text-align: center;
@@ -199,13 +202,12 @@ font-family: var(--font4);
 color:rgb(0, 0, 0);
 
 font-size: x-large;
-
 text-shadow: 1px 1px 3px rgba(181, 180, 171, 0.488);
 text-align: center center;
 border-radius: 20px;
 }
 footer { 
-    background-image: url('../imagens/fundo-preto.jpg');
+    background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
     
     background-attachment: fixed;
     background-size: cover;
@@ -226,7 +228,7 @@ footer p {  text-align: center top;
 
   
    font-size:x-small;
-   color: rgb(219, 230, 240);
+   color:rgb(0, 20, 0);
    
 
 } 
