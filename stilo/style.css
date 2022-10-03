@@ -17,21 +17,22 @@
     --font4:'Sacramento', arial, helvetica, cursive;
 }
   
-    body {       background-image: url('../imagens/fundo-branca.jpg');
+    body {    
+           background-image: url('../imagens/fundo-branca.jpg');
         background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
 } 
 
     main {  
-    
+        margin: 20px;
         backface-visibility: unset;
         background-size: cover;
          text-align: center;
       height: 170px;
    
         font-size: 12px;
-        padding-top:  -200px;
+   
 
     
    
@@ -105,16 +106,23 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
 section {  background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
             background-size: cover;             
            padding-top: 10px;
-           margin: 50px;
+           padding-bottom: 10px;
+           margin: 100px;
              text-align: center;
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);      border-radius: 100px 10px 
             100px; 
-            transform:translate(-3px, -3px );
-            transition: transform  1s;  
+         
                
      
-}  section.normal{
-  
+} section.inomal { 
+    padding-top: 100px;
+ 
+    
+}
+
+ section.normal{
+     margin: 15px;
+ 
   
     font-family:var(--font4) ;
    margin-bottom: 100px;
