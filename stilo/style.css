@@ -17,7 +17,7 @@
     --font4:'Sacramento', arial, helvetica, cursive;
 }
   
-    body {       background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
+    body {       background-image: url('../imagens/white-wall.jpg');
         background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -38,7 +38,7 @@
     }
    header{  
  
-    background-image: url('../imagens/fundo-preto.jpg');
+    background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
 
   background-size: cover;
   background-position:center;
@@ -102,7 +102,7 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
     border-radius: 2px 1px;
 }
 
-section {  background-image: url('../imagens/aco-inox.jpg');
+section {  background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
             background-size: cover;       
        
            padding-top: 10px;
