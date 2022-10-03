@@ -103,13 +103,15 @@ header > p{     background-image:url('../imagens/aco-inox.jpg');
 }
 
 section {  background-image: url('../imagens/papel-de-parede-cimento-queimado.jpg');
-            background-size: cover;       
-       
+            background-size: cover;             
            padding-top: 10px;
            margin: 50px;
              text-align: center;
-            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
-             border-radius: 100px 10px 100px;      
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);      border-radius: 100px 10px 
+            100px; 
+            transform:translate(-3px, -3px );
+            transition: transform  1s;  
+               
      
 }  section.normal{
   
@@ -145,15 +147,6 @@ section.imagem {
 
   margin: 0%;
   box-shadow: inset 1px 1px 3px rgba(206, 185, 0, 0.243);
-
-   
-    
-
-
-
-
-
- 
 
 
 } section#rede-sociais img{
